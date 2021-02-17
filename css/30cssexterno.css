@@ -1,0 +1,12 @@
+#caja1{
+    float: left;
+    width: 200px;
+    background-color: #083ff5;
+    border: 1px solid #555;
+}
+#caja2{
+    
+    margin-left: 220px;
+    background-color: #3efa04;
+    border: 1px solid #555;
+}

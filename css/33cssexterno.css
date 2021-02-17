@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+#contenedor{
+    width: 100%;
+    border: 1px solid #000;
+    line-height: 130%;
+    background-color: #f2f2f2;
+}
+#cabecera{
+    background-color: crimson;
+    padding: 10px;
+    margin: 10px;
+   }
+#columna1{
+    float: left;
+    width: 110px;
+    margin: 0px;
+    padding: 1rem;      /*unos 16px*/
+    /*background-color: cornflowerblue;*/
+}
+#columna2{
+    
+    margin-left: 120px;
+    margin-right: 280px;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    padding: 1rem;
+}
+#columna3{
+    float: right;
+    width: 200px;
+    margin: 0;
+    padding: 1rem;
+
+}
+#pie{
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    clear: both;/* indica q el elemento es movido hacia abajo para limpiar tanto elementos flotantes de la izquierda como a la derecha*/
+    
+}
+.columna1, .columna2,.columna3{
+    background-color: cyan;
+    width: 280px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}

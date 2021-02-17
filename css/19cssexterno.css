@@ -1,0 +1,11 @@
+#cabecera{
+    width: 100%;
+    height: auto;
+    background-color: indianred;
+    color: azure;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150px;
+    font-weight:bold;
+
+}

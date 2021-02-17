@@ -1,0 +1,28 @@
+body{
+    background-color: sandybrown;
+    color: black;
+    font-family: fantasy;
+}
+/*en pantallas de 992px de ancho o menos el color de fondo es azul*/
+@media screen and (max-width:922px){
+    body{
+        background-color: blue;
+        color: cornsilk;
+
+    }
+}
+/*en pantallas de 600px de ancho o menos el color de fondo es verde*/
+@media screen and (max-width:600px){
+    body{
+        background-color: green;
+        color: white;
+
+    }
+}
+
+
+
+
+
+
+

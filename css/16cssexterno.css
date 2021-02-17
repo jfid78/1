@@ -1,0 +1,13 @@
+*{
+    margin: 100px;
+    padding: 0;
+    color: brown ;
+}
+
+.pregunta{
+    background-color:#fff000 ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+}

@@ -1,0 +1,15 @@
+/*el primer parrafo despus del h1*/
+/*
+h1+p{
+    color: red;
+
+}
+*/
+/*coloca todos los parrafos en azul menos el primero*/
+p+p{
+    color: royalblue;
+}
+/*lo selecciona todo*/
+h2~p{
+    color: violet;
+}

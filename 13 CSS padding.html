@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CSS</title>
+
+    <link rel="stylesheet" href="css/13cssexterno.css" type="text/css">
+    
+
+</head>
+
+<body>
+
+  <h1 class="titulopaguina">este es el titulo de la paguina</h1>
+
+  <pre class="codigofuente">
+      
+    struct WORDREGS {
+        unsigned int    ax, bx, cx, dx, si, di, cflag, flags;
+    };
+
+    struct BYTEREGS {
+        unsigned char   al, ah, bl, bh, cl, ch, dl, dh;
+    };
+
+    union   REGS    {
+        struct  WORDREGS x;
+        struct  BYTEREGS h;
+    };
+
+    struct  SREGS   {
+        unsigned int es;  unsigned int cs;  unsigned int ss;  unsigned int ds;
+    };
+
+    struct  REGPACK {
+        unsigned    r_ax, r_bx, r_cx, r_dx;
+        unsigned    r_bp, r_si, r_di, r_ds, r_es, r_flags;
+    };
+
+  </pre>
+
+</body>
+
+</html>

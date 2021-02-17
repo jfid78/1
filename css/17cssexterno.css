@@ -1,0 +1,30 @@
+*{
+    margin: 20px;
+    padding: 0;
+    /*color:aliceblue ;*/
+}
+a:link{
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    background-color: coral;
+    color: cornsilk;
+}
+a:hover{
+    background-color: darkgray;
+    color: deepskyblue;
+}
+a:active{
+    background-color: rgb(32, 19, 4);
+    color: gold;
+}
+.pregunta{
+    background-color:#fff000 ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    color: rgb(24, 27, 24);
+
+}

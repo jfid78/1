@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    color: black;
+    font-family: fantasy;
+    }
+body{
+    background-color: cornsilk;
+}
+
+
+/*crea cuatro columnas iguales que flotan una al lado de la otra*/
+.column{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+/*limpiar flotadores despues de las columnas*/
+
+.row:after{
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*en pantallas de 992px de ancho o menos el color de fondo es azul*/
+@media screen and (max-width:922px){
+    .column{
+        width: 50%;
+
+    }
+}
+/*en pantallas de 600px de ancho o menos el color de fondo es verde*/
+@media screen and (max-width:600px){
+    .column{
+        width: 100%;
+
+    }
+}
+
+
+
+
+
+
+

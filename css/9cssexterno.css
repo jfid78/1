@@ -1,0 +1,34 @@
+body{
+    background-color:;
+}
+h1{
+    color: rgb(4, 207, 65);
+    text-align: left;
+    text-decoration: underline;/*subrayado*/
+}
+em{
+    color:  rgb(4, 207, 65);
+    text-decoration: underline;/*subrayado*/
+    font-size: 25px;
+    font-variant-caps: all-petite-caps ;/*todo a mayusculas*/
+    font-style: normal;
+}
+span{
+    color:  rgb(4, 207, 65);
+    text-decoration:line-through;/*tachado*/
+    font-style: normal;
+
+}
+.preguntas{
+    color: royalblue;
+    font-style: oblique;/*cursiva*/
+}
+.respuesta{
+    text-transform: capitalize;/*primeraletra mayuscula*/
+}
+.respuesta2{
+
+}
+
+
+

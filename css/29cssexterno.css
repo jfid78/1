@@ -1,0 +1,25 @@
+#caja1{
+    float: left;
+    width: 250px;
+    background-color: #083ff5;
+    margin: 10px;
+}
+#caja2{
+    float: left;
+    width: 250px;
+    background-color: #3efa04;
+    margin: 10px;
+}
+#caja3{
+    float: left;
+    width: 250px;
+    background-color: #f506d5;
+    margin: 10px;
+}
+#caja4{
+    float: left;
+    width: 250px;
+    clear: left;
+    background-color: #f7f709;
+    margin: 10px;
+}

@@ -1,0 +1,76 @@
+
+/*ordenade derecha a izquierda*/
+.rowreverse{
+    display:flex;/*ajusta los parrafos en una sola fila de izquierda derecha*/
+    flex-direction: row-reverse;/*********************************/
+    margin-bottom: 5px;
+    background-color: royalblue;
+    border: slategrey 3px solid;
+}
+/*ordena de izquierda a derecha*/
+.row{
+    display:flex;
+    flex-direction: row;/*************************/
+    margin-bottom: 5px;
+    background-color: royalblue;
+    border: slategrey 3px solid;
+}
+/*ordena los parrafos en columna*/
+.column{
+    display:flex;
+    flex-direction: column;/************************/
+    margin-bottom: 5px;
+    background-color: royalblue;
+    border: slategrey 3px solid;
+}
+/*oredna los parrafos al reves*/
+.columnreverse{
+    display:flex;
+    flex-direction: column-reverse;/**************/
+    margin-bottom: 5px;
+    background-color: royalblue;
+    border: slategrey 3px solid;
+}
+
+/*coloa elementos en una sola linea*/
+.flexwrap{
+    display:flex;
+    flex-wrap: wrap;/*****hace el colapso y hace q salte debajo el ultimo parrafo *********/
+   
+}
+
+.flexNOwrap{
+    display:flex;
+    flex-wrap: no-wrap;/*****no hace colapso*********/
+   
+}
+.flexwrapREVERSE{
+    display:flex;
+    flex-wrap: wrap-reverse;/*****hace el colapso y hace q salte debajo el ultimo parrafo *********/
+   
+}
+/* smultea flexdireccion y wrap. el div nos hace pantalla 100% y las columnas se ajustan */
+.compuesta{
+    display: flex;
+    flex-flow: wrap row;
+
+}
+/* smultea flexdireccion y wrap. el div nos hace pantalla 100% y las columnas se ajustan */
+.compuesta2{
+    display: flex;
+    flex-flow: wrap row-reverse;
+
+}
+.order{
+    
+}
+
+
+
+p{
+    width: 100px;
+    border: 3px solid orange;
+    margin: 2px;
+    padding:10px;
+
+}

@@ -1,0 +1,6 @@
+div>p{
+    color: cyan;
+}
+div>li>p{
+    color: darkorange;
+}

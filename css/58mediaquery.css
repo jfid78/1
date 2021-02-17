@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+/*estilo del cuerpo*/
+body{
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+    
+}
+/*Titulo del encabezado/logotipo*/
+.header{
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(245, 229, 245);
+    color: violet;
+}
+/*aplicar estilo a la barra de navegacion superior*/
+.navbar{
+    display: flex;
+    background-color: rgba(151, 9, 151, 0.267);
+}
+/*aplicar estilo a los vinculos de navegacion*/
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: white;
+    color: thistle;
+}
+/*contenedor de la columna*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/*crear 2 columnas desiguales que se encuentren una al lado de la otra*/
+/*barra lateral/columna izquierda*/
+
+/*columna izquierda*/
+.side{
+    flex: 30%;
+    background-color: rgb(212, 250, 246);
+    padding: 20px;
+}
+/*columna derecha*/
+.main{
+    flex: 70%;
+    background-color: rgba(151, 9, 151, 0.267);
+    padding: 20px;
+    color: white;
+}
+/*imagen columna 1*/
+.fakeimg{
+    padding: 20px;
+    width: 100%;
+    background-color: rebeccapurple;
+
+}
+/*footer*/
+.footer{
+    padding: 20px;
+    color: violet;
+    background-color: thistle;
+    text-align: center;
+}
+
+
+
+
+/*diseño receptivo: cuando la pantalla tiene menos de 700px de ancho, hago q las columnasse apilen una encima de otra en lugar de una al lado de otra*/
+
+
+@media screen and (max-width:700px){
+   .row,.navbar{
+       flex-direction: column;
+   }
+}

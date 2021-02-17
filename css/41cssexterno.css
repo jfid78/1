@@ -1,0 +1,11 @@
+ul li{
+    color:blue;
+}
+ul li:first-child{
+    color:red;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li:last-child{
+    color: green;
+}

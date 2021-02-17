@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#cabecera{
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+   }
+
+#pie{
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    clear: both;/* indica q el elemento es movido hacia abajo para limpiar tanto elementos flotantes de la izquierda como a la derecha*/
+    
+}
+.columna1, .columna2,.columna3{
+    background-color: #eee;
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+   
+li{
+    display: inline;
+    padding: 5px;
+}

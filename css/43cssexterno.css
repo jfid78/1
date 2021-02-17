@@ -1,0 +1,13 @@
+div{
+    display:inline-flex;
+    margin-bottom: 5px;
+    background-color: royalblue;
+    border: slategrey 3px solid;
+}
+p{
+    width: 100px;
+    border: 3px solid orange;
+    margin: 2px;
+    padding:10px;
+
+}

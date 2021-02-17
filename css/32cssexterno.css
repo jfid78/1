@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#contenedor{
+    width: 100%;
+    border: 1px solid #000;
+    line-height: 130%;
+    background-color: #f2f2f2;
+}
+#cabecera{
+    padding: 10px;
+    color: #fff;
+    background-color: #becdfe;
+    clear: left;
+}
+#columna1{
+    float: left;
+    width: 110px;
+    margin: 0px;
+    padding: 1rem;      /*unos 16px*/
+    /*background-color: cornflowerblue;*/
+}
+#columna2{
+    
+    margin-left: 120px;
+    margin-right: 300px;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    padding: 1rem;
+}
+#columna3{
+    margin-top: 10px;
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+    padding: 1rem;
+
+}
+#pie{
+    padding: 10px;
+    color: #fff;
+    background-color: #dbecde;
+    clear: left;
+    
+}px

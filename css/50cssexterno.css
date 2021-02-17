@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+button{
+    background: none;
+    outline: none;
+    cursor: pointer;
+    }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+/*---------------CONTAINER-------------------------*/
+.contenedor{
+    display:flex;
+    flex-direction: column ;
+    min-height: 100vh;
+}
+
+.contenedor>*{
+    padding: 20px;
+}
+/*-------------Header---------------------------*/
+.page-header{
+    background-color: aliceblue;
+    }
+.page-header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;/*separa los botones del menu*/
+    align-items: center;
+    }
+.page-header ul{
+    display: flex;/*menu en horizontal*/
+    width: 100%;
+    margin-top: 15px;
+    order: 1;
+    }
+    /*que el ultimo padding*/
+.page-header ul li:not(:last-child){
+    padding-right: 25px;
+    }
+.page-header .cta-contact{
+    font-family: inherit;
+    font-size: 25px;
+    padding: 5px 18px;
+    border: 1px solid coral;
+
+}
+/*----------------------------MAIN------*/
+.page-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 350px;
+    background-image: url(../img/OSCURO-18.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;/*la imagen se ajusta a la reduccion de la pagina*//*contain deforma la foto*/
+
+}
+.page-main div{
+    max-width: 500px;
+    color: rgb(253,0,91);
+}
+.page-main h1{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.page-main p{
+    margin-top: 10px;
+    padding: 20px;
+
+}
+/*-------------------------Footer--------------------------*/
+.page-footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.page-footer ul{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.page-footer ul li:not(:last-child){
+    margin-right: 20px;
+}
+
+/*---------------------------MQ-------------------------------*/
+@media screen and (min-width:550px){
+    .page-header ul{
+        width: auto;
+        margin-top: 0;
+    }
+    .page-header .cta-contact{
+        order:1;
+    }
+    .page-footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .page-footer ul{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:768px){
+    body{
+        font-size: 18px;
+        }
+    .page-main{
+        padding-left: 90px;
+    }
+}

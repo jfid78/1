@@ -1,0 +1,15 @@
+div{
+    display:flex;
+    width: 1200px;
+}
+
+p{
+    border: 1px solid orange;
+    margin: 8px;
+    padding:10px;
+    font-size: 20px;
+    flex-basis: ;/*"content" el tamaño inicial viebne definido por el elemento*/
+                    /* ponemos el tamaño del parrafo*/
+                    
+
+}

@@ -1,0 +1,13 @@
+div{
+    display:flex;
+    
+}
+
+p{
+    border: 1px solid orange;
+    margin: 10px;
+    padding:10px;
+    font-size: 16px;
+    flex-grow: 0.2;/*ajusta el cuadro q contiene el texto a la paguina y al texto*/
+
+}

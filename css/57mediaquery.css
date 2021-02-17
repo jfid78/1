@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+}
+.header{
+    text-align: center;
+    padding: 32px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/*cree 4 columnas iguales que se encuentren una al lado de otra*/
+
+.column{
+    flex: 25%;/*cada columna ocupa un 25% de la pantalla*/
+    /*max-width: 25%;*/
+    padding: 0 4px;
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;/*hace q las imagenes se adapten por igual y se reduzcan al parejo de la pantalla*/
+}
+/*diseño receptivo: hace un diseño de dos columnas en lugar de cuatro*/
+@media screen and (max-width:800px){
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+/*diseño receptivo: hace un diseño de 1 columnas en lugar de 2*/
+@media screen and (max-width:600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/*flexible: se ajusta el contenido reduciendoce a la pantalla*/
+/*responsive:las imagenes se adaptan a la pantalla*/

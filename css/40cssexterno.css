@@ -1,0 +1,18 @@
+
+/* en teoria pone el enlace targert en el color designado
+/*a[target]
+{
+    color:rgb(14, 53, 230);
+}*/
+
+a[href^="http"]{
+    color: cyan;
+    font-weight: 900;
+    font-size: 100px;
+}
+a[href$=".ar"]{
+    color: rgb(13, 238, 99);
+}
+a[href*="yahoo"]{
+    color: rgb(248, 12, 209);
+}
